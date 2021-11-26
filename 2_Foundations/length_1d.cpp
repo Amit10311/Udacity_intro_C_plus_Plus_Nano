@@ -10,3 +10,5 @@ int main() {
     cout << a.size() << "\n";
   
 }
+
+// output = 5
