@@ -29,7 +29,7 @@ int main() {
     cout << "The value of i is: " << i << "\n";
 }
 
-/*
+/* Output
 
 Post-increment example:
 The value of c is: 1
