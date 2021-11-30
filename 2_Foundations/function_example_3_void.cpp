@@ -6,7 +6,7 @@ using std::string;
 // Write the PrintStrings function here.
 void PrintStrings(string a, string b)
 {
-    cout << a << " " << b << "\n";
+    cout << a << " " << b << "\n";   // add string
     return;
 }
 
