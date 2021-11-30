@@ -28,3 +28,18 @@ int main() {
     cout << "Decrement example:" << "\n";
     cout << "The value of i is: " << i << "\n";
 }
+
+/*
+
+Post-increment example:
+The value of c is: 1
+The value of i is: 2
+
+Pre-increment example:
+The value of c is: 2
+The value of i is: 2
+
+Decrement example:
+The value of i is: 1
+
+*/ 
