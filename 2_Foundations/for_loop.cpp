@@ -6,3 +6,11 @@ int main() {
       cout << i << "\n";
     }
 }
+
+/* Output
+0
+1
+2
+3
+4
+*/ 
