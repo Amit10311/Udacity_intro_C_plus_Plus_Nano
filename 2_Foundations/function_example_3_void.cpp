@@ -17,3 +17,8 @@ int main() {
     // Uncomment the following line to call your function:
     PrintStrings(s1, s2);
 }
+
+/* 
+C++ is super awesome.
+
+*/
