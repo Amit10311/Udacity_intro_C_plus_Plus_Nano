@@ -12,5 +12,4 @@ int main() {
 /* 
 Witing a for loop that prints values from -3 through 10 in the cell below.
 
-
 */ 
