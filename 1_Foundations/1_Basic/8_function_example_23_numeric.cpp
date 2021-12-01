@@ -6,9 +6,9 @@ using std::cout;
 using std::vector;
 
 
-int AdditionFunction(const vector<int> &v)
+int AdditionFunction(const vector<int> &a)
 {
-    return std::accumulate(v.begin(), v.end(), 0);
+    return std::accumulate(a.begin(), a.end(), 0);
 }
 
 int main() 
