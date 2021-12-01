@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <vector>   // std::vector=
 #include <numeric>  // std::accumulate
 
 using std::cout;
