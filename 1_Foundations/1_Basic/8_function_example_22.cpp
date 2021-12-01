@@ -3,7 +3,8 @@
 using std::cout;
 using std::vector;
 
-// Instead of just two ints, this function should accept a vector<int> 
+// Define a function "AdditionFunction" here.
+// This function should accept a vector<int> 
 // as the argument, and it should return the sum of all the ints in the vector.
 
 int AdditionFunction(const vector<int> &v)
