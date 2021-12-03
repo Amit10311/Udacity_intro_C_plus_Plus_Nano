@@ -4,14 +4,14 @@
 
 int main()
 {
-    std::ifstream my_file;            // declared my_file
-    my_file.open("files/1.board");   // initialized my_file 
+    std::ifstream my_file;            // declared var
+    my_file.open("files/1.board");   // initialized var 
     // std::ifstream my_file(path);
     
-    if (my_file) {                   // check if it open file properly 
+    if (my_file) {                   // Evaluate the  object as a bool
       std::cout << "The file stream has been created!" << "\n";
     }    
-
+}
   
   /*  OUTPUT
   
