@@ -9,7 +9,7 @@ int main() {
     if (my_file) {                  
         std::cout << "The file stream has been created!" << "\n";
         std::string line;
-        while (getline(my_file, line)) {         //  write file lines to a string.
+        while (getline(my_file, line)) {         //  write file lines to a string use getline fun
             std::cout << line << "\n";
         }
     }
