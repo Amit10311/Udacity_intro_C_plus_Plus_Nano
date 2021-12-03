@@ -15,7 +15,7 @@ int main() {
     }
 }
 
-/*
+/*   OUTPUT
 
 The file stream has been created!
 0,1,0,0,0,0,
