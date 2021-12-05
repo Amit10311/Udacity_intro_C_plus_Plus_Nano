@@ -33,6 +33,7 @@ int main()
 That stream was successful: 1
 That stream was successful: 2
 That stream was successful: 3
+That stream was successful: 6
 That stream was NOT successful!
 
 */
