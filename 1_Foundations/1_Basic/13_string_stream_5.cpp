@@ -14,7 +14,8 @@ int main()
 
     char c;
     int n;
-
+    
+    // stream an `int` followed by a `char`
     while (my_stream >> n >> c) {
       cout << "That stream was successful:" << n << " " << c << "\n";
     }
