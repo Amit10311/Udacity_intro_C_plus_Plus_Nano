@@ -58,8 +58,7 @@ string CellString(State cell) {
 void PrintBoard(const vector<vector<State>> board) {
   for (int i = 0; i < board.size(); i++) {
     for (int j = 0; j < board[i].size(); j++) {
-      // TODO: Modify the line below to call CellString
-      // on each element of the board before streaming to cout.
+      // TODO: Modify, call CellString  on each element of the board before streaming to cout.
       cout << CellString(board[i][j]);
     }
     cout << "\n";
