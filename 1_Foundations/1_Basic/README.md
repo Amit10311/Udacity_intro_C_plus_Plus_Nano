@@ -11,3 +11,21 @@
 ```
 C / C++ : g++ build and debug active file
 ```
+
+## USING C++ in google colab
+```
+%%writefile main.cpp
+
+#include <iostream>
+using std::cout;
+
+int main() {
+    // TODO: Add your code here:
+    cout << "Hello!" << "\n";   
+}
+```
+```
+%%script bash
+g++ main.cpp -std=c++11
+./a.out
+```
