@@ -43,16 +43,9 @@ vector<vector<State>> ReadBoardFile(string path) {
 }
 
 // TODO: Write the Search function stub here.
-std::vector<vector<State>> Search( vector<vector<State>> grid, int init[2] , int goal[2]) {
+vector<vector<State>> Search( vector<vector<State>> grid, int init[2] , int goal[2]) {
   cout << "No path found!"<<"\n";
   return std::vector<vector<State>> {};
-}
-
-string CellString(State cell) {
-  switch(cell) {
-    case State::kObstacle: return "⛰️   ";
-    default: return "0   "; 
-  }
 }
 
 
@@ -76,3 +69,4 @@ int main() {
   // TODO: Change the following line to pass "solution" to PrintBoard.
   PrintBoard(solution);
 }
+
