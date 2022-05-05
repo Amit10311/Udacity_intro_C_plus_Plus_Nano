@@ -14,10 +14,10 @@
 1. Initialize an empty list of open nodes.
 
 2. Initialize a starting node with the following:
+   * x and y values given by initial_point.
+   * g = 0, where g is the cost for each move.
+   * h given by the heuristic function (a function of the current coordinates and the goal).
 
- * x and y values given by initial_point.
- * g = 0, where g is the cost for each move.
- * h given by the heuristic function (a function of the current coordinates and the goal).
 3. Add the new node to the list of open nodes.
 
 4. **while** the list of open nodes is nonempty:
