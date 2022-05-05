@@ -14,3 +14,11 @@ int main() {
     cout << "The int b equals: " << b << "\n";
     cout << "The int a still equals: " << a << "\n";
 }
+
+ /*  OUTPUT
+ 
+The int a equals: 5
+The int b equals: 10
+The int a still equals: 5
+
+  */ 
