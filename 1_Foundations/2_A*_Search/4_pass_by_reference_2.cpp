@@ -15,3 +15,10 @@ int main() {
     DoubleString(s);
     cout << "The string s is now: " << s << "\n";
 }
+
+  /*  OUTPUT
+  
+The string s is: Hello
+The string s is now: Hello Hello
+  
+  */ 
