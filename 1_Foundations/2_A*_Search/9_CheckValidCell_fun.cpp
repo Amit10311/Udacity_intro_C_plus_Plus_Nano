@@ -74,7 +74,6 @@ int Heuristic(int x1, int y1, int x2, int y2) {
  * cell is on the grid and not an obstacle (i.e. equals kEmpty).
  * Check that a cell is valid: on the grid, not an obstacle, and clear. 
  */
-
 bool CheckValidCell(int x, int y,vector<vector<State>> &grid ){
   bool on_grid_x = (x >= 0 && x < grid.size());
   bool on_grid_y = (y >= 0 && y < grid[0].size());
