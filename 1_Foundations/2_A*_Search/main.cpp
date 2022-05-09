@@ -167,13 +167,12 @@ string CellString(State cell) {
     case State::kObstacle: return "⛰️   ";
     case State::kPath: return "🚗   ";
     // TODO: Add cases to return "🚦   " for kStart
-    case State::kStart: return "🚦  ";
     // and "🏁   " for kFinish.
+    case State::kStart: return "🚦   ";
     case State::kFinish: return "🏁   ";
     default: return "0   "; 
   }
 }
-
 
 void PrintBoard(const vector<vector<State>> board) {
   for (int i = 0; i < board.size(); i++) {
