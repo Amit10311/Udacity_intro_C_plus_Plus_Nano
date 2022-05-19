@@ -36,6 +36,7 @@ root@abc123defg:/home/workspace/multiple_files_example# ./a.out
 ```
 cmake_minimum_required(VERSION 3.5.1)
 set(CMAKE_CXX_STANDARD 14)
+project(<your_project_name>)
 ```
 ```
 set(CMAKE_CXX_STANDARD 17)
