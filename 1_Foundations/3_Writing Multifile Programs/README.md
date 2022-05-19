@@ -21,14 +21,14 @@ g++ -std=c++17 ./code/main.cpp ./code/increment_and_sum.cpp ./code/vect_add_one.
 2. Object Files
 
 ```
-root@abc123defg:/home/workspace/multiple_files_example# g++ -c *.cpp
-root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
-root@abc123defg:/home/workspace/multiple_files_example# ./a.out
+:/home/workspace/multiple_files_example# g++ -c *.cpp
+:/home/workspace/multiple_files_example# g++ *.o
+:/home/workspace/multiple_files_example# ./a.out
 ```
 ```
-root@abc123defg:/home/workspace/multiple_files_example# g++ -c increment_and_sum.cpp vect_add_one.cpp main.cpp
-root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
-root@abc123defg:/home/workspace/multiple_files_example# ./a.out
+:/home/workspace/multiple_files_example# g++ -c increment_and_sum.cpp vect_add_one.cpp main.cpp
+:/home/workspace/multiple_files_example# g++ *.o
+:/home/workspace/multiple_files_example# ./a.out
 ```
 
 3. CMakeLists.txt
@@ -53,3 +53,16 @@ project(ExampleProject)
 
 add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_and_sum.cpp)
 ```
+
+4. CMake project build 
+```
+:/ home/workspace/cmake_example# mkdir build
+:/ home/workspace/cmake_example# cd build
+```
+
+```
+:/home/workspace/cmake_example/build# cmake ..
+:/home/workspace/cmake_example/build# make
+```
+
+
