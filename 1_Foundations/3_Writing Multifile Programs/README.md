@@ -30,3 +30,11 @@ root@abc123defg:/home/workspace/multiple_files_example# g++ -c increment_and_sum
 root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
 root@abc123defg:/home/workspace/multiple_files_example# ./a.out
 ```
+
+3. CMakeLists.txt
+
+```
+cmake_minimum_required(VERSION 3.5.1)
+
+set(CMAKE_CXX_STANDARD 14)
+```
