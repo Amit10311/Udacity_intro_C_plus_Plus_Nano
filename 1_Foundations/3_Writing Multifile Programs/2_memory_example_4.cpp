@@ -19,8 +19,8 @@ int main() {
 
   /*  Getting an Object Back from a Pointer Address
   
-The address of i is:          0x7ffff17b7a0c
-The variable pointer_to_i is: 0x7ffff17b7a0c
+The address of i is          : 0x7ffff17b7a0c
+The variable pointer_to_i is : 0x7ffff17b7a0c
 The new value of the variable i is                     : 7
 The value of the variable pointed to by pointer_to_i is: 7
 
