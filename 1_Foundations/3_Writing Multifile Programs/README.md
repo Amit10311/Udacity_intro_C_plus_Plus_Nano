@@ -75,7 +75,7 @@ add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_
 ```
 :/home/workspace/cmake_example/build# ./example_files
 ```
-
+When edit the file and run the project again, you'll only need to run the make command from the build folder, and only that file will be compiled again. 
 
 
 
