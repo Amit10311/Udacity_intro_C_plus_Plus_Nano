@@ -25,3 +25,8 @@ root@abc123defg:/home/workspace/multiple_files_example# g++ -c *.cpp
 root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
 root@abc123defg:/home/workspace/multiple_files_example# ./a.out
 ```
+```
+root@abc123defg:/home/workspace/multiple_files_example# g++ -c increment_and_sum.cpp vect_add_one.cpp main.cpp
+root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
+root@abc123defg:/home/workspace/multiple_files_example# ./a.out
+```
