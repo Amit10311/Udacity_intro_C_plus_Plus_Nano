@@ -21,8 +21,7 @@ g++ -std=c++17 ./code/main.cpp ./code/increment_and_sum.cpp ./code/vect_add_one.
 2. Object Files
 
 ```
-g++ -c main.cpp
-```
-```
-g++ main.o
+root@abc123defg:/home/workspace/multiple_files_example# g++ -c *.cpp
+root@abc123defg:/home/workspace/multiple_files_example# g++ *.o
+root@abc123defg:/home/workspace/multiple_files_example# ./a.out
 ```
