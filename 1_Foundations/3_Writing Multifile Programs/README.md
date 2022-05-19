@@ -18,4 +18,11 @@ g++ -std=c++17 ./code/main.cpp ./code/increment_and_sum.cpp ./code/vect_add_one.
 ```bash
 ./a.out
 ```
+2. Object Files
 
+```
+g++ -c main.cpp
+```
+```
+g++ main.o
+```
