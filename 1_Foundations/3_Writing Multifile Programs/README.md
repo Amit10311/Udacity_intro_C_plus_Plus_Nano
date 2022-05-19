@@ -54,7 +54,7 @@ project(ExampleProject)
 add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_and_sum.cpp)
 ```
 
-4. CMake project build 
+4. `CMake` project build 
 ```
 :/ home/workspace/cmake_example# mkdir build
 :/ home/workspace/cmake_example# cd build
@@ -64,5 +64,17 @@ add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_
 :/home/workspace/cmake_example/build# cmake ..
 :/home/workspace/cmake_example/build# make
 ```
+
+5.
+```
+:/home/workspace/cmake_example/build# ./your_executable_name
+[100%] Built target <your_executable_name>
+```
+```
+:/home/workspace/cmake_example/build# ./example_files
+```
+
+
+
 
 
