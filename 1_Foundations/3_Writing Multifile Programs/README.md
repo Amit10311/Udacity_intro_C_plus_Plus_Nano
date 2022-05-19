@@ -4,3 +4,17 @@
 
 
 ## Lesson Goal 
+
+**Compile command:**
+Remember that you will need to include all the files in your compile command:
+
+```bash
+g++ -std=c++17 ./code/main.cpp ./code/increment_and_sum.cpp ./code/vect_add_one.cpp
+```
+
+followed by
+
+```bash
+./a.out
+```
+
