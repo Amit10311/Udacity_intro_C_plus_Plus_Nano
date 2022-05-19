@@ -68,7 +68,7 @@ add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_
 [100%] Built target example_files
 ```
 
-5.
+5. Run your executable
 ```
 :/home/workspace/cmake_example/build# ./your_executable_name
 ```
