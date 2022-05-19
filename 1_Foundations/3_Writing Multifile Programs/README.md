@@ -43,7 +43,7 @@ or
 set(CMAKE_CXX_STANDARD 17)
 ```
 
-3.1 
+3.1 `add_executable`
 ```
 add_executable(your_executable_name  path_to_file_1  path_to_file_2 ...)
 ```
