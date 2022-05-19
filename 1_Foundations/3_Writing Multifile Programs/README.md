@@ -13,7 +13,7 @@
 g++ -std=c++17 ./code/main.cpp ./code/increment_and_sum.cpp ./code/vect_add_one.cpp
 ```
 
-followed by
+1.1 followed by
 
 ```bash
 ./a.out
