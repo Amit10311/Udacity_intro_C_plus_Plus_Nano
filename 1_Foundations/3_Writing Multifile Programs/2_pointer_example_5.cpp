@@ -16,6 +16,8 @@ int main() {
         cout << a << "\n";
     }
     
+    cout<< "\n";
+
     // Dereference your pointer to v and print the int at index 0 here (note: you should print 1):
     cout << "The first element of v is: " << (*pointer_to_v)[0] << "\n";
 }
