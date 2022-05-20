@@ -7,6 +7,11 @@
 
 **Compile command:**
 
+
+```bash
+g++ -std=c++17 ./code/header_example.cpp && ./a.out
+```
+
 1. Remember that you will need to include all the files in your compile command:
 
 ```bash
