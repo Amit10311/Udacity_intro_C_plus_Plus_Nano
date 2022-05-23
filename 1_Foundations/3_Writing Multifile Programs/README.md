@@ -83,5 +83,9 @@ add_executable(example_files  src/main.cpp  src/vect_add_one.cpp  src/increment_
 When edit the file and run the project again, you'll only need to run the `make` command from the build folder, and only that file will be compiled again. 
 
 
+6. Hash Tables
+```
+unordered_map <key_type, value_type> variable_name;
+```
 
 
