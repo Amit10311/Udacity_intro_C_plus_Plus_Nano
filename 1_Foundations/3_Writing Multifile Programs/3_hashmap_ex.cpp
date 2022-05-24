@@ -64,11 +64,12 @@ int main()
 
   /*  Pointers Continued
   
-203
-1: Canada
-55: Brazil
-960: Maldives
-47: Norway
+  Total Countries: 203
+  1: Canada
+  55: Brazil
+  960: Maldives
+  47: Norway
+  
   */
 
 
