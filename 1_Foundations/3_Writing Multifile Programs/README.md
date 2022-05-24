@@ -88,7 +88,10 @@ When edit the file and run the project again, you'll only need to run the `make`
 unordered_map <key_type, value_type> variable_name;
 ```
 
+---------------------------------------------------------------------------
+
 **Classes and Object-Oriented Programming :**
+
 ```
 class Sedan : public Car {
     // Sedan class declarations/definitions here.
