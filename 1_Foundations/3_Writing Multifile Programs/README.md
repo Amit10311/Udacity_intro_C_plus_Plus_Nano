@@ -97,3 +97,11 @@ class Sedan : public Car {
     // Sedan class declarations/definitions here.
 };
 ```
+
+```
+g++ -std=c++17 ./code/car.cpp ./code/car_main.cpp && ./a.out
+
+The distance that the green car 1 has traveled is: 1
+The distance that the red car 2 has traveled is: 0
+The distance that the blue car 3 has traveled is: 0
+```
