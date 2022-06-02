@@ -20,3 +20,11 @@ int main()
     car_3.PrintCarData();
 
 }
+
+/*   Classes and OOP Continued
+
+The distance that the green car 1 has traveled is: 1
+The distance that the red car 2 has traveled is: 0
+The distance that the blue car 3 has traveled is: 0
+  
+  */ 
