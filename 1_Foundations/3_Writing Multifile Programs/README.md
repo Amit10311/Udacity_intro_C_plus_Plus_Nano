@@ -132,7 +132,7 @@ class Car {
 };
 ```
 
-C++ by using the this pointer: 
+C++ by using the `this` pointer: 
 
 ```
 // The Car class
