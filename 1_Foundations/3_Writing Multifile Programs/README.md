@@ -105,3 +105,55 @@ The distance that the green car 1 has traveled is: 1
 The distance that the red car 2 has traveled is: 0
 The distance that the blue car 3 has traveled is: 0
 ```
+
+---------------------------------------------------------------------------
+**This Pointer:**
+
+The `IncrementDistance()` method implicitly refers to the current Car instance's distance attribute:
+
+```
+// The Car class
+class Car {
+  public:
+    // Method to print data.
+    void PrintCarData() {
+        cout << "The distance that the " << color << " car " << number << " has traveled is: " << distance << "\n";
+    }
+
+    // Method to increment the distance travelled.
+    void IncrementDistance() {
+        distance++;
+    }
+
+    // Class/object attributes
+    string color;
+    int distance = 0;
+    int number;
+};
+```
+
+C++ by using the this pointer: 
+
+```
+// The Car class
+class Car {
+  public:
+    // Method to print data.
+    void PrintCarData() {
+        cout << "The distance that the " << this->color << " car " << this->number << " has traveled is: " << this->distance << "\n";
+    }
+
+    // Method to increment the distance travelled.
+    void IncrementDistance() {
+        this->distance++;
+    }
+
+    // Class/object attributes
+    string color;
+    int distance = 0;
+    int number;
+};
+```
+
+
+
