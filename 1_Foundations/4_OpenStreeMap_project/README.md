@@ -13,7 +13,8 @@
  The code to parse the OSM data and the data structures which are used to store the data : 
  
  * https://github.com/cpp-io2d/P0267_RefImpl/tree/master/P0267_RefImpl/Samples/maps
-
+ 
+-----------------------------------------------------------------------------------------------
 
 **Building and Running**
 
