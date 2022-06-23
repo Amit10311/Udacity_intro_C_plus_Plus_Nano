@@ -9,3 +9,7 @@
  * Nodes : Each node indicates a single point with an identifier id, latitude lat, and longitude lon.
  * Ways : An ordered list of nodes : feature could be a road, or a boundary of a park, or some other feature in the map.
  * Relation : data structure which documents a relationship between other data elements
+ 
+ The code to parse the OSM data and the data structures which are used to store the data : 
+ 
+ * https://github.com/cpp-io2d/P0267_RefImpl/tree/master/P0267_RefImpl/Samples/maps
