@@ -24,6 +24,8 @@ int main() {
 
     // Move each car forward by 1.
     for (Car* cp: car_vect) {
+        // Simultaneously dereference the pointer and 
+        // access IncrementDistance().
         cp->IncrementDistance();
     }
 
