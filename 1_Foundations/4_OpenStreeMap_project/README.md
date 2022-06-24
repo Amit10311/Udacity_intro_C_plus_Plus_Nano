@@ -44,3 +44,9 @@ Or to specify a map file:
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
 
+## Project Code Overview
+
+![image](https://user-images.githubusercontent.com/20908007/175560923-3fbb859d-a353-4ddd-87bb-0bbc3f4f058b.png)
+
+
+
