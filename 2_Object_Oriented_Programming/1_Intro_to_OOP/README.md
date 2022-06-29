@@ -39,7 +39,7 @@ struct Date {
 };
 ```
 
-Initialize these member variables:
+* Initialize these member variables:
 
 ```
 // Create an instance of the Date structure
