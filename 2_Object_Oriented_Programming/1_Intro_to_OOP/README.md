@@ -23,14 +23,14 @@ struct Rectangle {
 };
 ```
 
- **Types**
+ 2.1 **Types**
  ```
 int value;
 Rectangle rectangle;
 Sphere earth;
 ```
 
-**User-Defined Types**
+2.2 **User-Defined Types**
 ```
 struct Date {
   int day;
