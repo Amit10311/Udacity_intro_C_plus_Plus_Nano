@@ -63,7 +63,7 @@ struct Date {
 2.4 **Access Specifiers**
 
 
-**Private Members**
+* **Private Members**
 
 ```
 struct Date {
@@ -75,7 +75,7 @@ struct Date {
 
 ```
 
-**Accessors And Mutators**
+* **Accessors And Mutators**
 
 ```
 struct Date {
