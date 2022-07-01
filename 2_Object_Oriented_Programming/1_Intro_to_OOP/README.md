@@ -73,7 +73,6 @@ struct Date {
   int month{1};
   int year{0};
 };
-
 ```
 
 * **Accessors And Mutators**
