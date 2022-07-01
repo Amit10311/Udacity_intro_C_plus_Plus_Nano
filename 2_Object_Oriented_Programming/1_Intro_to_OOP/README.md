@@ -60,10 +60,36 @@ struct Date {
 };
 ```
 
+2.4 **Access Specifiers**
 
 
+**Private Members**
 
+```
+struct Date {
+ private:
+  int day{1};
+  int month{1};
+  int year{0};
+};
 
+```
 
+**Accessors And Mutators**
 
+```
+struct Date {
+ public:
+  int Day() { return day; }
+  void Day(int day) { this.day = day; }
+  int Month() { return month; }
+  void Month(int month) { this.month = month; }
+  int Year() { return year; }
+  void Year(int year) { this.year = year; }
 
+ private:
+  int day{1};
+  int month{1};
+  int year{0};
+};
+```
