@@ -51,3 +51,19 @@ date.month = 10;
 date.year = 2019;
 ```
 
+**2.3 Member Initialization**
+```
+struct Date {
+  int day{1};
+  int month{1};
+  int year{0};
+};
+```
+
+
+
+
+
+
+
+
