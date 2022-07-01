@@ -105,14 +105,48 @@ struct Date {
 
 ### **3. Classes**
 
+* `Date` Class
 
+```
+// Use the keyword “class” to define a Date class:
+class Date {
+  int day{1};
+  int month{1};
+  int year{0};
+};
+```
 
+*  `Date` Accessors And Mutators
 
+```
+class Date {
+ public:
+  int Day() { return day_; }
+  void Day(int d) { day_ = d; }
 
+ private:
+  int day_{1};
+  int month_{1};
+  int year_{0};
+};
+```
 
+* `Date` Invariants
 
+```
+class Date {
+ public:
+  int Day() { return day; }
+  void Day(int d) {
+    if (d >= 1 && d <= 31) day_ = d;
+  }
 
-
+ private:
+  int day_{1};
+  int month_{1};
+  int year_{0};
+};
+```
 
 
 
