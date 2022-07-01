@@ -93,3 +93,11 @@ struct Date {
   int year{0};
 };
 ```
+
+* **Avoid Trivial Getters And Setters**
+```
+ struct Point {   // Good: concise
+    int x {0};   // public member variable with a default initializer of 0
+    int y {0};   // public member variable with a default initializer of 0
+};
+```
