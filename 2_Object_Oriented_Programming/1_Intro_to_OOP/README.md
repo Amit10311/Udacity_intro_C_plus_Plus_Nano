@@ -16,7 +16,7 @@ g++ -std=c++17 ./code/1_main.cpp && ./a.out
 ----------------------------------------------------------------------------
 ### **2. Structures**
 
-```
+```cpp
 struct Rectangle {
   float length;
   float width;
@@ -24,14 +24,14 @@ struct Rectangle {
 ```
 
  2.1 **Types**
- ```
+ ```cpp
 int value;
 Rectangle rectangle;
 Sphere earth;
 ```
 
 2.2 **User-Defined Types**
-```
+```cpp
 struct Date {
   int day;
   int month;
@@ -41,7 +41,7 @@ struct Date {
 
 * Initialize these member variables:
 
-```
+```cpp
 // Create an instance of the Date structure
 Date date;
 // Initialize the attributes of Date
@@ -51,7 +51,7 @@ date.year = 2019;
 ```
 
 2.3 **Member Initialization**
-```
+```cpp
 struct Date {
   int day{1};
   int month{1};
@@ -65,7 +65,7 @@ struct Date {
 
 * **Private Members**
 
-```
+```cpp
 struct Date {
  private:
   int day{1};
@@ -76,7 +76,7 @@ struct Date {
 
 * **Accessors And Mutators**
 
-```
+```cpp
 struct Date {
  public:
   int Day() { return day; }
@@ -94,7 +94,7 @@ struct Date {
 ```
 
 * **Avoid Trivial Getters And Setters**
-```
+```cpp
  struct Point {   // Good: concise
     int x {0};   // public member variable with a default initializer of 0
     int y {0};   // public member variable with a default initializer of 0
@@ -107,7 +107,7 @@ struct Date {
 
 * `Date` Class
 
-```
+```cpp
 // Use the keyword “class” to define a Date class:
 class Date {
   int day{1};
@@ -118,7 +118,7 @@ class Date {
 
 *  `Date` Accessors And Mutators
 
-```
+```cpp
 class Date {
  public:
   int Day() { return day_; }
@@ -133,7 +133,7 @@ class Date {
 
 * `Date` Invariants
 
-```
+```cpp
 class Date {
  public:
   int Day() { return day; }
@@ -152,7 +152,7 @@ class Date {
 Constructors are member functions of a class or struct that initialize an object.
 
 
-```diff
+```cpp
 class Date {
  public:
   Date(int d, int m, int y) {  // This is a constructor.
@@ -175,6 +175,7 @@ class Date {
   int year{0};
 };
 ```
+
 
 
 
