@@ -149,8 +149,8 @@ class Date {
 ```
 
 3.1 **Constructors**
-Constructors are member functions of a class or struct that initialize an object.
 
+Constructors are member functions of a class or struct that initialize an object.
 
 ```cpp
 class Date {
@@ -176,16 +176,53 @@ class Date {
 };
 ```
 
+**3.2 Scope Resolution**
 
+```cpp
+Person::move(); \\ Call the move the function that is a member of the Person class.
+std::map m; \\ Initialize the map container from the C++ Standard Library.  
+```
 
+**Class**
+```cpp
+class Date {
+ public:
+  int Day() const { return day; }
+  void Day(int day);  // Declare member function Date::Day().
+  int Month() const { return month; }
+  void Month(int month) {
+    if (month >= 1 && month <= 12) Date::month = month;
+  }
+  int Year() const { return year; }
+  void Year(int year) { Date::year = year; }
 
+ private:
+  int day{1};
+  int month{1};
+  int year{0};
+};
 
+// Define member function Date::Day().
+void Date::Day(int day) {
+  if (day >= 1 && day <= 31) Date::day = day;
+}
+```
 
+**Namespaces**
+```cpp
+namespace English {
+void Hello() { std::cout << "Hello, World!\n"; }
+}  // namespace English
 
+namespace Spanish {
+void Hello() { std::cout << "Hola, Mundo!\n"; }
+}  // namespace Spanish
 
-
-
-
+int main() {
+  English::Hello();
+  Spanish::Hello();
+}
+```
 
 
 
