@@ -149,10 +149,31 @@ class Date {
 ```
 
 3.1 **Constructors**
+Constructors are member functions of a class or struct that initialize an object.
 
+```
+class Date {
+ public:
+  Date(int d, int m, int y) {  // This is a constructor.
+    Day(d);
+  }
+  int Day() { return day; }
+  void Day(int d) {
+    if (d >= 1 && d <= 31) day = d;
+  }
+  int Month() { return month; }
+  void Month(int m) {
+    if (m >= 1 && m <= 12) month = m;
+  }
+  int Year() { return year_; }
+  void Year(int y) { year = y; }
 
-
-
+ private:
+  int day{1};
+  int month{1};
+  int year{0};
+};
+```
 
 
 
