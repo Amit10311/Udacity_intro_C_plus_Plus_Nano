@@ -151,7 +151,8 @@ class Date {
 3.1 **Constructors**
 Constructors are member functions of a class or struct that initialize an object.
 
-```
+
+```diff
 class Date {
  public:
   Date(int d, int m, int y) {  // This is a constructor.
@@ -174,8 +175,6 @@ class Date {
   int year{0};
 };
 ```
-
-
 
 
 
