@@ -148,7 +148,7 @@ class Date {
 };
 ```
 
-3.1 **Constructors**
+**3.1 Constructors**
 
 Constructors are member functions of a class or struct that initialize an object.
 
@@ -223,6 +223,26 @@ int main() {
   Spanish::Hello();
 }
 ```
+
+**3.3 Initializer Lists**
+
+```cpp
+Date::Date(int day, int month, int year) : year_(y) {
+  Day(day);
+  Month(month);
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
