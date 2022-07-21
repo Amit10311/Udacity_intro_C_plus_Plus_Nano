@@ -1,5 +1,6 @@
 #include <cassert>
 
+//  Define public accessors and mutators for the private member variables
 class Date {
  public:
   int Day() { return day; }
