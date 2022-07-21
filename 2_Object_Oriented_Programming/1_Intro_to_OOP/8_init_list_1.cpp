@@ -18,9 +18,6 @@ int main() {
   std::cout<< alice.name <<"\n";
 }
 
-
-
-
   /*  Initializer Lists
   
 Alice
