@@ -18,3 +18,4 @@ int main() {
 }
 
 
+// Initializer lists initialize member variables to specific values, just before the class constructor runs.
