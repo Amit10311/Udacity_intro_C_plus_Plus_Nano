@@ -1,5 +1,10 @@
 ## Course Outline
 
+CONCURRENCY (multi-tasking system) means a single system is is performing multiple independent task in parallel rather than sequetially as before. 
+
+Multi-tasking system doesn't require multiple processor or cores but inviting a program execution into many small bits and small pieces and by interleaving them with a bits of pieces of the other programs.
+
+
 **1. Introduction and Running Threads**
  
  * Learn the difference between processes and threads
