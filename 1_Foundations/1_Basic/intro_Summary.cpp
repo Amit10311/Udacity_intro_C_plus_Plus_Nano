@@ -311,3 +311,85 @@ int main() {
   cout <<"\n\n";
 
 }
+
+
+
+/*   OUTPUT
+
+Hello!
+
+9
+Here is a string
+Here is another string
+
+1D Vector !
+0
+1
+2 3 
+
+0 1 2 3 4 
+
+Great! A 2D vector has been created.
+
+Variables declared and initialized without explicitly stating type!
+1 2 3 
+
+1
+4
+
+Length of 1D Vector 5
+
+Row of matrix: 2
+Column of matrix: 4
+
+0
+1
+2
+3
+4
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5 
+
+The value of p is: 1
+The value of i++ is: 2
+The value of p ++iis: 2
+The value of i is: 2
+
+1 2 3 4 5 
+
+1 2 
+3 4 
+5 6 
+
+10
+
+Sum of v_3 {1, 2, 3, 4, 5} :15
+
+C++ is  super awesome.
+
+Hooray! You made it into the if statement!
+
+Even Number : 2 4 6 8 10 
+
+The file stream has been created!
+0,1,0,0,0,0,
+0,1,0,0,0,0,
+0,1,0,0,0,0,
+0,1,0,0,0,0,
+0,0,0,0,1,0,
+
+
+That stream was successful: 1 2
+That stream was successful: 3 ,
+That stream was successful: 6 p
+That stream was NOT successful!
+
+1 2 3 4 5 6 
+
+0 1 0 0 0 0 
+0 1 0 0 0 0 
+0 1 0 0 0 0 
+0 1 0 0 0 0 
+0 0 0 0 1 0 
+
+*/ 
